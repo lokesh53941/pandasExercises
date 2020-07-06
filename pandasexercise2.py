@@ -1,0 +1,13 @@
+import pandas
+df1=pandas.read_excel("C:\Lokesh\Repositories\pandas\pandasExercises\supermarkets.xlsx",sheet_name=0)
+print(df1)
+print("................................................")
+df2=pandas.read_csv("C:\Lokesh\Repositories\pandas\pandasExercises\supermarkets.csv")
+print(df2)
+print("..................................................")
+df3=pandas.read_json("C:\Lokesh\Repositories\pandas\pandasExercises\supermarkets.json")
+print(df3)
+print("..................................................")
+df4=pandas.read_csv("C:\Lokesh\Repositories\pandas\pandasExercises\supermarkets-commas.txt")
+print(df4)
+print("....................................................")
